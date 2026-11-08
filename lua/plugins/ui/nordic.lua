@@ -6,13 +6,8 @@ vim.pack.add({
 -- changed theme but don't know if the integrations are the same
 require("nordic").setup({
 	transparent = {
+		bg = false,
 		float = true,
-	},
-	integrations = {
-		cmp = true,
-		blink_cmp = {
-			style = "bordered",
-		},
 	},
 })
 require("vimade").setup({
