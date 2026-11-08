@@ -10,7 +10,7 @@ require("config.autocmd")
 require("config.binds")
 
 -- Colorcheme
-vim.cmd.colorscheme("catppuccin-nvim")
+vim.cmd.colorscheme("nordic")
 
 -- Line numbers
 vim.opt.cursorline = true
