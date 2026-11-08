@@ -8,6 +8,8 @@ vim.pack.add({
 	{ src = "https://github.com/2kabhishek/nerdy.nvim", name = "telescope-nerdy" },
 })
 
+--TODO: change this color whenever you see that it doesn't match
+-- also can choose a different telescope theme: current is ivy
 vim.api.nvim_set_hl(0, "TelescopeBorder", { fg = "#89b4fa" })
 
 local actions = require("telescope.actions")
