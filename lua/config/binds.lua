@@ -25,6 +25,8 @@ end
 
 Keymap("i", "<C-BS>", "<C-W>") -- C-Backscpace for whole words
 
+vim.keymap.set("i", "jk", "<ESC>", { silent = true }) --jk for escape
+
 Keymap("n", "<leader>d", "<cmd>lua vim.diagnostic.open_float()<CR>") -- Diagnostics for Linter
 Keymap("n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>") -- Diagnostics for Linter
 
