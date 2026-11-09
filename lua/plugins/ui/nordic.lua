@@ -3,10 +3,8 @@ vim.pack.add({
 	{ src = "https://github.com/tadaa/vimade", name = "vimade" },
 })
 
--- changed theme but don't know if the integrations are the same
 require("nordic").setup({
 	transparent = {
-		bg = false,
 		float = true,
 	},
 })
