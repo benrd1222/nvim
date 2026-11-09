@@ -1,2 +1,6 @@
 lazy-lock.json
 .session
+
+# nix build artifacts
+result
+result-*
